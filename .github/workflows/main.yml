@@ -30,4 +30,4 @@ jobs:
 
         - name: Execute Script
           run: sh ./build.sh
-        
+          shell: bash
