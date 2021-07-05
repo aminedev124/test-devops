@@ -31,7 +31,7 @@ jobs:
         - name: Install packages
           run: npm install
         - name: create folder
-          run: mkdir /home/ec2-user/amine
+          run: cd /home/ec2-user
         - name: Execute Script
           run: sh ./build.sh
           shell: bash
