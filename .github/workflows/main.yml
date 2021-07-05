@@ -30,6 +30,8 @@ jobs:
               username: ec2-user
         - name: Install packages
           run: npm install
+        - name: create folder
+          run: mkdir /home/ec2-user/amine
         - name: Execute Script
           run: sh ./build.sh
           shell: bash
