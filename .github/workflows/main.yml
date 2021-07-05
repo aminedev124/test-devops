@@ -30,6 +30,6 @@ jobs:
               username: ec2-user
               script:  whoami      
         - name: Execute Script
-          run: ssh ec2-user@ec2-18-118-115-218.us-east-2.compute.amazonaws.com bash build.sh
+          run: ssh ec2-user@18.118.115.218 bash build.sh
         
        
