@@ -72,7 +72,5 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
 
-branding:
-  icon: 'terminal'
-  color: 'gray-dark'
+
 
